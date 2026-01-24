@@ -21,27 +21,34 @@ voice clips by systematically removing noise, isolating speakers,
 and extracting high-quality speech segments suitable for training
 high-fidelity voice models.
 
-## System Requirements
-
-This project relies on FFmpeg for audio extraction.
-
-Please ensure FFmpeg is installed and accessible via the system PATH.
-
-### macOS
-```bash
-brew install ffmpeg
-
 ## Pipeline Overview
 
-Movie  
+Audio is standardized to mono WAV, 24-bit PCM, 44.1kHz to preserve
+maximum signal fidelity during multi-stage processing.
+
+**Processing Flow:**
+
+→ Movie  
 → Audio Extraction  
 → Speech Isolation  
 → Speaker Diarization  
 → Voice Activity Detection  
 → Clean Voice Clips  
 
-Audio is standardized to mono WAV, 24-bit PCM, 44.1kHz to preserve
-maximum signal fidelity during multi-stage processing.
+
+## System Requirements
+
+This project relies on FFmpeg for audio extraction.
+
+Please ensure FFmpeg is installed and accessible via the system PATH.
+
+### Installation
+
+### macOS
+```bash
+brew install ffmpeg
+
+---
 
 ## Day 1 Status
 
