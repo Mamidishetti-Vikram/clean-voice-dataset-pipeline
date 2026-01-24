@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# project specific ignores
+data/raw_movies/*
+data/extracted_audio/*
+*.wav
+*.mp4
+*.mkv
+
