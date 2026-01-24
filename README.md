@@ -47,7 +47,7 @@ Please ensure FFmpeg is installed and accessible via the system PATH.
 ### macOS
 ```bash
 brew install ffmpeg
-
+```
 ---
 
 ## Day 1 Status
