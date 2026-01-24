@@ -206,10 +206,18 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# project specific ignores
+# Ignore all files in raw data folders
 data/raw_movies/*
 data/extracted_audio/*
+
+# Ignore media files globally
 *.wav
 *.mp4
 *.mkv
 
+# macOS junk
+.DS_Store
+
+# But keep directory structure
+!data/raw_movies/.gitkeep
+!data/extracted_audio/.gitkeep
