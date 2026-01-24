@@ -21,6 +21,16 @@ voice clips by systematically removing noise, isolating speakers,
 and extracting high-quality speech segments suitable for training
 high-fidelity voice models.
 
+## System Requirements
+
+This project relies on FFmpeg for audio extraction.
+
+Please ensure FFmpeg is installed and accessible via the system PATH.
+
+### macOS
+```bash
+brew install ffmpeg
+
 ## Pipeline Overview
 
 Movie  
