@@ -59,4 +59,9 @@ brew install ffmpeg
 The extraction stage is verified and trusted. Future stages will build
 on this audio as the master signal for speech isolation and voice modeling.
 
+## Day 2 Status
+✔ Speech/music separation implemented
+✔ Dialogue-dominant audio generated
+✔ Ready for speaker diarization
+
 
